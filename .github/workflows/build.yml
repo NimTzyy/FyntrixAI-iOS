@@ -11,44 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Build
+      - name: Build IPA
         run: |
-          set -ex
-          
-          echo "=== Verify project ==="
-          ls -la FyntrixAI/
-          ls -la FyntrixAI/Views/
-          
-          echo "=== Build ==="
-          xcodebuild build \
-            -project FyntrixAI.xcodeproj \
+          xcodebuild -project FyntrixAI.xcodeproj \
             -scheme FyntrixAI \
             -sdk iphoneos \
             -configuration Release \
-            -destination 'generic/platform=iOS' \
-            CODE_SIGN_IDENTITY="" \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO \
-            DEVELOPMENT_TEAM=""
-          
-          echo "=== Archive ==="
-          xcodebuild archive \
-            -project FyntrixAI.xcodeproj \
-            -scheme FyntrixAI \
-            -sdk iphoneos \
-            -configuration Release \
-            -destination 'generic/platform=iOS' \
             -archivePath ./build/FyntrixAI.xcarchive \
+            archive \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO \
-            DEVELOPMENT_TEAM=""
+            CODE_SIGNING_ALLOWED=NO
           
-          echo "=== Package IPA ==="
           mkdir -p Payload
           cp -r ./build/FyntrixAI.xcarchive/Products/Applications/FyntrixAI.app Payload/
           zip -r FyntrixAI.ipa Payload
-          ls -lh FyntrixAI.ipa
+          rm -rf Payload
       
       - uses: actions/upload-artifact@v4
         with:
