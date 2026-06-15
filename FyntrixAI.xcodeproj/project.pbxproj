@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {		7C989705190BFF0877751C4E /* 48507A7B65141CC74F105ED7 in Sources */ = {isa = PBXBuildFile; fileRef = 48507A7B65141CC74F105ED7; };
+		446F08EC10600094C1BB9EAD /* 606C5501AF24F1BA74D4F968 in Sources */ = {isa = PBXBuildFile; fileRef = 606C5501AF24F1BA74D4F968; };
+		9B853F7389C37F529D044E61 /* B06FB3E9B466E37E5BA39882 in Sources */ = {isa = PBXBuildFile; fileRef = B06FB3E9B466E37E5BA39882; };
+		FCEB6FD473C54E7D08C0A280 /* E91E12177B4B563C54C6D239 in Sources */ = {isa = PBXBuildFile; fileRef = E91E12177B4B563C54C6D239; };
+		8FB510F6A99E19991F06E142 /* FE0C9A2069115104D000FACD in Sources */ = {isa = PBXBuildFile; fileRef = FE0C9A2069115104D000FACD; };
+		DEDAF915AC75105AF9900FA4 /* 05F2B4A4F6C96687AD198885 in Sources */ = {isa = PBXBuildFile; fileRef = 05F2B4A4F6C96687AD198885; };
+		7ADDE1BBA9F213BF695C487E /* 5CC11F12CBB6533B1F288C4E in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11F12CBB6533B1F288C4E; };
+		2DE01BE0CC758DFB1A785CB7 /* 352320BE51DEDE1534D9C28C in Sources */ = {isa = PBXBuildFile; fileRef = 352320BE51DEDE1534D9C28C; };
+		9D8D4CDB93AC451A367F8FBD /* ABA484E609DDB69C7A98F5E8 in Sources */ = {isa = PBXBuildFile; fileRef = ABA484E609DDB69C7A98F5E8; };
+		41B3E4B1E7A3FC1DD30BD325 /* 02938AA8E65FEA012CBA4393 in Sources */ = {isa = PBXBuildFile; fileRef = 02938AA8E65FEA012CBA4393; };
+		75C3047F4083C261BDBED208 /* 5F253C072ED068860B8B09D3 in Sources */ = {isa = PBXBuildFile; fileRef = 5F253C072ED068860B8B09D3; };
+		8A4B2113413EE56871D508A8 /* B6104C39F695AE486A6DCDFE in Sources */ = {isa = PBXBuildFile; fileRef = B6104C39F695AE486A6DCDFE; };
+		71BBB72775AEAF9CCF828E15 /* 61E0C083796C996E24956301 in Resources */ = {isa = PBXBuildFile; fileRef = 61E0C083796C996E24956301; };
+
+		48507A7B65141CC74F105ED7 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App.swift"; sourceTree = "<group>"; };
+		606C5501AF24F1BA74D4F968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		61E0C083796C996E24956301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		B06FB3E9B466E37E5BA39882 /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatModels.swift"; sourceTree = "<group>"; };
+		E91E12177B4B563C54C6D239 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIService.swift"; sourceTree = "<group>"; };
+		FE0C9A2069115104D000FACD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageService.swift"; sourceTree = "<group>"; };
+		05F2B4A4F6C96687AD198885 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatViewModel.swift"; sourceTree = "<group>"; };
+		5CC11F12CBB6533B1F288C4E /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatBubbleView.swift"; sourceTree = "<group>"; };
+		352320BE51DEDE1534D9C28C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatView.swift"; sourceTree = "<group>"; };
+		ABA484E609DDB69C7A98F5E8 /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConversationListView.swift"; sourceTree = "<group>"; };
+		02938AA8E65FEA012CBA4393 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MessageInputView.swift"; sourceTree = "<group>"; };
+		5F253C072ED068860B8B09D3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		B6104C39F695AE486A6DCDFE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView.swift"; sourceTree = "<group>"; };
+		F5BF48AA40CAD7891EB709FC /* FyntrixAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyntrixAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				48507A7B65141CC74F105ED7 /* App.swift */,
+				606C5501AF24F1BA74D4F968 /* ContentView.swift */,
+				61E0C083796C996E24956301 /* Info.plist */,
+				B06FB3E9B466E37E5BA39882 /* ChatModels.swift */,
+				E91E12177B4B563C54C6D239 /* APIService.swift */,
+				FE0C9A2069115104D000FACD /* StorageService.swift */,
+				05F2B4A4F6C96687AD198885 /* ChatViewModel.swift */,
+				5CC11F12CBB6533B1F288C4E /* ChatBubbleView.swift */,
+				352320BE51DEDE1534D9C28C /* ChatView.swift */,
+				ABA484E609DDB69C7A98F5E8 /* ConversationListView.swift */,
+				02938AA8E65FEA012CBA4393 /* MessageInputView.swift */,
+				5F253C072ED068860B8B09D3 /* SettingsView.swift */,
+				B6104C39F695AE486A6DCDFE /* WelcomeView.swift */,
+				F5BF48AA40CAD7891EB709FC /* FyntrixAI.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* FyntrixAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9832DA6294341A73224777;
+			buildPhases = (
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = FyntrixAI;
+			productName = FyntrixAI;
+			productReference = F5BF48AA40CAD7891EB709FC;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 3DC2A95B60D8CD807725F53C;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 2B731CEFC6751AAE0EC69B98;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (42AEFBAE01D2DFD981F7DA7D);
+		};
+/* End PBXProject section */
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C989705190BFF0877751C4E /* App.swift */,
+				446F08EC10600094C1BB9EAD /* ContentView.swift */,
+				FCEB6FD473C54E7D08C0A280 /* ChatModels.swift */,
+				8FB510F6A99E19991F06E142 /* APIService.swift */,
+				DEDAF915AC75105AF9900FA4 /* StorageService.swift */,
+				7ADDE1BBA9F213BF695C487E /* ChatViewModel.swift */,
+				2DE01BE0CC758DFB1A785CB7 /* ChatBubbleView.swift */,
+				9D8D4CDB93AC451A367F8FBD /* ChatView.swift */,
+				41B3E4B1E7A3FC1DD30BD325 /* ConversationListView.swift */,
+				75C3047F4083C261BDBED208 /* MessageInputView.swift */,
+				8A4B2113413EE56871D508A8 /* SettingsView.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		FA0D4F710E8598A29955D319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FyntrixAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyntrix.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2DBAB53D84CBE43A31E82A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FyntrixAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyntrix.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		DB9832DA6294341A73224777 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FA0D4F710E8598A29955D319, 2DBAB53D84CBE43A31E82A00);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC2A95B60D8CD807725F53C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FA0D4F710E8598A29955D319, 2DBAB53D84CBE43A31E82A00);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595;
+}
