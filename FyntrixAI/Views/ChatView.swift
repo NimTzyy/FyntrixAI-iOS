@@ -59,7 +59,7 @@ struct ChatView: View {
                     ScrollView {
                         LazyVStack(spacing: 0) {
                             ForEach(viewModel.messages) { msg in
-                                ChatBubbleView(message: msg, isUser: msg.role == "user")
+                                ChatBubbleView(message: msg, isUser: msg.role == "user", onEdit: msg.role == "user" ? { newText in viewModel.editMessage(msg.id, newText: newText) } : nil)
                             }
                             if viewModel.isLoading {
                                 HStack {

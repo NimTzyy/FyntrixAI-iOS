@@ -82,6 +82,13 @@ class ChatViewModel: ObservableObject {
         }
     }
     
+    func editMessage(_ id: String, newText: String) {
+        guard !newText.isEmpty,
+              let idx = messages.firstIndex(where: { $0.id == id && $0.role == "user" }) else { return }
+        messages = Array(messages.prefix(idx))
+        sendMessage(newText)
+    }
+    
     func stopGeneration() {
         currentTask?.cancel()
         currentTask = nil
